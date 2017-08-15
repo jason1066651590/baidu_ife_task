@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: auto;
+	background-color: #eee;
+	margin: 20px;
+	border: 2px solid #999;
+	overflow: hidden;
+	padding: 20px 160px 20px 240px;
+}
+
+.left{
+	width: 156px;
+	height: 80px;
+	border: 2px solid #999;
+	padding: 20px;
+	margin-left: -100%;
+	left: -220px;
+}
+.left span{
+	position: absolute;
+	margin-top: 0;
+	margin-left: 20px;
+}
+.middle{
+	width: calc(100%-44px);
+	border: 2px solid #999;
+	padding: 20px;
+}
+.middle p{
+	margin-bottom: 10px;
+}
+.right{
+	border: 2px solid #999;
+	width: 76px;
+	padding: 20px;
+	margin-right: -120px;
+	right: -20px;
+}
+.right img:not(:first-child){
+	margin-top: 20px;
+}
+.middle,
+.left,
+.right{
+	float: left;
+	position: relative;
+}

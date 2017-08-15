@@ -1,0 +1,199 @@
+body{
+	background-color: #dedede;
+}
+header{
+	height: 60px;
+	background: url('../img/logo.png') no-repeat 40px 0px;
+	background-size: 120px 54px;
+	background-color: #333;
+}
+header ul{
+	float: right;
+	height: 60px;
+	margin-top: 0;
+}
+header ul li{
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	height: 60px;
+}
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	line-height: 60px;
+}
+.one,.two,.three,.four{
+	margin: 20px;
+	margin-top: 0;
+}
+.five{
+	margin: 20px 20px 20px 0;
+}
+article{
+	/* margin: 20px; */
+	background-color: #fff;
+	box-shadow: 4px 4px #848484;
+	padding: 40px 20px;
+}
+article p{
+	text-indent: 2em;
+	line-height: 26px;
+}
+article h2,
+article span{
+	color: #aba7a6;
+}
+article p span{
+	font-weight: 600;
+	color: inherit;
+}
+article img{
+	width: 300px;
+	height: 240px;
+}
+
+.two ul{
+	list-style: none;
+	line-height: 26px;
+}
+
+.three div{
+	border: 1px solid;
+	margin-bottom: 15px;
+	width: 124px;
+	height: 124px;
+	text-align: center;
+	margin-left: 20px;
+}
+.three div span{
+	display: inline-block;
+	color: inherit;
+	padding: 10px;
+}
+.three div img{
+	width: 104px;
+	height: 80px;
+}
+
+.four ol+span{
+	color: inherit;
+}
+.four ol{
+	line-height: 26px;
+}
+.four table,
+.four td,
+.four th{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding-left: 10px;
+}
+.four thead th{
+	border: 1px solid #fff;
+}
+.four tfoot td{
+	border: none;
+}
+.four table{
+	height: 146px;
+	width: 100%;
+}
+.four thead{
+	background-color: #333;
+	color: #fff;
+	text-align: left;
+}
+.four tfoot{
+	background-color: #ccc;
+}
+.four tfoot tr td{
+	column-span:all;
+}
+
+.five h1{
+	border-left: 3px solid #ccc;
+	font-size: 15px;
+	padding: 10px 0px 10px 10px;
+	margin-top: -20px;
+}
+.five form table{
+	/* margin-left: 230px; */
+	border-spacing: 20px;
+	width: 100%;
+}
+.five button{
+	width: 100%;
+	height: 38px;
+	background-color: #3355d0;
+	color: #fff;
+	border-radius: 10px;
+}
+.five form table tr td:first-child{
+	text-align: right;
+}
+.five form table textarea{
+	width: auto;
+}
+.five form table tr:last-child td:first-child{
+	vertical-align: top;
+}
+/* #male,#female{
+	display: none;
+}
+.sex{
+	position: relative;
+	padding-left: 15px;
+}
+.sex::before{
+	position: absolute;
+	content: " ";
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 5px solid #4d9cf1;
+	left: 0;
+	top: 5px;
+} */
+
+footer{
+	height: 70px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 12px;
+	clear: both;
+}
+
+/* 布局 */
+.three{
+	overflow: hidden;
+}
+.three div{
+	float: left;
+}
+.main{
+	float: left;
+	margin-right: 500px;
+}
+.five{
+	width: 440px;
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+/* .main{
+	float: left;
+	width: 100%;
+
+}
+.one,.two,.three,.four{
+	margin-right: 520px;
+}
+.five{
+	float: left;
+	width: 440px;
+	margin-left: -500px;
+	margin-top: 0;
+} */

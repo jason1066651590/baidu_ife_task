@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .container {
+        width: 400px;
+        height: 200px;
+        background-color: #ccc;
+        position: relative;
+        margin: auto;
+    }
+
+    .container .left-top {
+        border: 50px solid #fff;
+        height: 0px;
+        width: 0px;
+        border-radius: 50%;
+        border-right-color: #fc0;
+        transform: rotate(45deg);
+        position: absolute;
+        left: -50px;
+        top: -50px;
+    }
+
+    .container .right-bottom {
+        border: 50px solid #fff;
+        height: 0px;
+        width: 0px;
+        border-radius: 50%;
+        border-left-color: #fc0;
+        transform: rotate(45deg);
+        position: absolute;
+        right: -50px;
+        bottom: -50px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-top"></div>
+        <div class="right-bottom"></div>
+    </div>
+</body>
+
+</html>
